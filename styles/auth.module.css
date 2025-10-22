@@ -1,0 +1,15 @@
+.authcontainer {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #0f2027 0%, #1b3a57 35%, #2a7cff 70%, #6fb1ff 100%);
+    background-size: 300% 300%;
+    animation: gradientShift 10s ease infinite;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes gradientShift {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
